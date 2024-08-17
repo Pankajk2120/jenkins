@@ -19,6 +19,6 @@ public class Sample {
 		System.out.println("-----");
 		String Title = driver.getTitle();
 		System.out.println("Title of the WebPage : " +Title);
-		//driver.quit();
+		driver.quit();
 	}
 }
